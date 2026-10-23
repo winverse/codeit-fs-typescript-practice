@@ -11,7 +11,7 @@
 ## 수정할 파일과 시작 상태
 
 - `template.ts`: 객체가 모두 `unknown`(값의 타입이 아직 확인되지 않았다는 뜻)으로 선언되어 있어 프로퍼티 구조를 검사할 수 없는 상태입니다.
-- `test-cases.ts`: 책·회원 객체의 필수/선택 프로퍼티와 숫자 값 맵을 검사하는 읽기 전용 파일입니다.
+- `test-cases.ts`: 책·회원 객체의 필수·선택 프로퍼티와 인덱스 시그니처를 검사하는 파일이며 고치지 않습니다.
 
 수정 전에 확인 명령을 실행하면 `test-cases.ts(28,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
@@ -40,4 +40,4 @@ pnpm run check -- practices/02/13-object-types
 
 ## 정답과 비교하기
 
-직접 풀이하고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.
+직접 풀고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.

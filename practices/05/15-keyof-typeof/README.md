@@ -11,7 +11,7 @@
 ## 수정할 파일과 시작 상태
 
 - `template.ts`: 값에서 가져올 타입과 키 타입이 `any`라 잘못된 키도 제한하지 못합니다. 키 배열(`bookKeys`, `filterKeys`)과 두 읽기 함수는 새 타입을 그대로 사용하므로 고치지 않습니다.
-- `test-cases.ts`: `typeof`로 가져온 객체 타입, `keyof`로 만든 키 이름의 Union 타입, 두 읽기 함수의 반환 타입을 검사하는 읽기 전용 파일입니다.
+- `test-cases.ts`: `typeof`로 가져온 객체 타입, `keyof`로 만든 키 이름의 Union 타입, 두 읽기 함수의 반환 타입을 검사하는 파일이며 고치지 않습니다.
 
 수정 전에 확인 명령을 실행하면 `test-cases.ts(18,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
@@ -38,4 +38,4 @@ pnpm run check -- practices/05/15-keyof-typeof
 
 ## 정답과 비교하기
 
-직접 풀이하고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.
+직접 풀고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.

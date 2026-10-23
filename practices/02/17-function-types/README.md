@@ -11,7 +11,7 @@
 ## 수정할 파일과 시작 상태
 
 - `template.ts`: 함수의 파라미터와 반환 타입이 `unknown`으로 넓게 선언되어 있습니다. 함수 본문의 `typeof` 검사는 파라미터가 `unknown`이라 넣어 둔 것이며, 타입을 고친 뒤 남겨 두어도 확인 명령은 통과합니다.
-- `test-cases.ts`: 일반·기본값·선택·레스트 파라미터와 반환 타입을 검사하는 읽기 전용 파일입니다.
+- `test-cases.ts`: 일반·기본값·선택·레스트 파라미터와 반환 타입을 검사하는 파일이며 고치지 않습니다.
 
 수정 전에 확인 명령을 실행하면 `test-cases.ts(13,5): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
@@ -40,4 +40,4 @@ pnpm run check -- practices/02/17-function-types
 
 ## 정답과 비교하기
 
-직접 풀이하고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.
+직접 풀고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.

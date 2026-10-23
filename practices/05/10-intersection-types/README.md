@@ -11,7 +11,7 @@
 ## 수정할 파일과 시작 상태
 
 - `template.ts`: 조합에 쓸 조각 타입(`Id`, `Timestamp`)은 프로퍼티가 없는 빈 Interface, 조합한 타입(`Product`, `User`)은 `any`여서 객체가 충족해야 할 조건이 사라진 상태입니다.
-- `test-cases.ts`: 공통 타입을 Intersection으로 조합했는지와 각 프로퍼티 타입을 검사하는 읽기 전용 파일입니다.
+- `test-cases.ts`: 공통 타입을 Intersection 타입으로 조합했는지와 각 프로퍼티 타입을 검사하는 파일이며 고치지 않습니다.
 
 수정 전에 확인 명령을 실행하면 `test-cases.ts(14,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
@@ -41,4 +41,4 @@ pnpm run check -- practices/05/10-intersection-types
 
 ## 정답과 비교하기
 
-직접 풀이하고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.
+직접 풀고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.
