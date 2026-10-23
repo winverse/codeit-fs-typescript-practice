@@ -1,11 +1,11 @@
 export interface Course {
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 1: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   id: unknown;
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 2: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   title: unknown;
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 3: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   price: unknown;
-  // TODO: 값에 맞는 선택 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 4: 값에 맞는 선택 프로퍼티 타입으로 unknown을 바꾸세요.
   published?: unknown;
 }
 
@@ -17,7 +17,7 @@ export const course: Course = {
 };
 
 export interface OnlineCourse extends Course {
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 5: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   streamingHours: unknown;
 }
 
@@ -30,11 +30,11 @@ export const onlineCourse: OnlineCourse = {
 
 // 추가 문제
 export interface Account {
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 6: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   id: unknown;
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 7: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   email: unknown;
-  // TODO: 값에 맞는 선택 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 8: 값에 맞는 선택 프로퍼티 타입으로 unknown을 바꾸세요.
   displayName?: unknown;
 }
 
@@ -45,7 +45,7 @@ export const account: Account = {
 };
 
 export interface CreatorAccount extends Account {
-  // TODO: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  // TODO 9: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   subscriberCount: unknown;
 }
 

@@ -1,4 +1,4 @@
-// TODO: 필수 프로퍼티와 선택 프로퍼티를 포함한 책 객체 타입으로 unknown을 바꾸세요.
+// TODO 1: 필수 프로퍼티와 선택 프로퍼티를 포함한 책 객체 타입으로 unknown을 바꾸세요.
 export const book: unknown = {
   id: "b001",
   title: "정적 타이핑 안내서",
@@ -7,7 +7,7 @@ export const book: unknown = {
   tags: ["typescript", "types"],
 };
 
-// TODO: book과 같은 책 객체 타입으로 unknown을 바꾸세요.
+// TODO 2: book과 같은 책 객체 타입으로 unknown을 바꾸세요.
 export const ebook: unknown = {
   id: "b002",
   title: "타입 시스템 입문",
@@ -15,14 +15,14 @@ export const ebook: unknown = {
   tags: ["ebook"],
 };
 
-// TODO: 문자열 키와 숫자 값을 갖는 인덱스 시그니처로 unknown을 바꾸세요.
+// TODO 3: 문자열 키와 숫자 값을 갖는 인덱스 시그니처로 unknown을 바꾸세요.
 export const stockByIsbn: unknown = {
   b001: 3,
   b002: 10,
 };
 
 // 추가 문제
-// TODO: 필수 프로퍼티와 선택 프로퍼티를 포함한 회원 객체 타입으로 unknown을 바꾸세요.
+// TODO 4: 필수 프로퍼티와 선택 프로퍼티를 포함한 회원 객체 타입으로 unknown을 바꾸세요.
 export const memberProfile: unknown = {
   id: "u001",
   email: "teacher@codeit.kr",
@@ -31,7 +31,7 @@ export const memberProfile: unknown = {
   marketingOptIn: true,
 };
 
-// TODO: memberProfile과 같은 회원 객체 타입으로 unknown을 바꾸세요.
+// TODO 5: memberProfile과 같은 회원 객체 타입으로 unknown을 바꾸세요.
 export const guestProfile: unknown = {
   id: "u002",
   email: "guest@codeit.kr",
@@ -39,7 +39,7 @@ export const guestProfile: unknown = {
   marketingOptIn: false,
 };
 
-// TODO: 문자열 키와 숫자 값을 갖는 인덱스 시그니처로 unknown을 바꾸세요.
+// TODO 6: 문자열 키와 숫자 값을 갖는 인덱스 시그니처로 unknown을 바꾸세요.
 export const levelByCourse: unknown = {
   ts101: 3,
   ts201: 1,

@@ -6,22 +6,29 @@
 
 ## 시작하기
 
-저장소 루트에서 `practices/02/17-function-types` 실습을 선택해 진행합니다.
+`codeit-fs-typescript-basic-practice` 폴더의 `practices/02/17-function-types`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
-- `template.ts`: 함수의 파라미터와 반환 타입이 `unknown`으로 넓게 선언되어 있어 시작 검사는 실패합니다.
+- `template.ts`: 함수의 파라미터와 반환 타입이 `unknown`으로 넓게 선언되어 있습니다. 함수 본문의 `typeof` 검사는 파라미터가 `unknown`이라 넣어 둔 것이며, 타입을 고친 뒤 남겨 두어도 확인 명령은 통과합니다.
 - `test-cases.ts`: 일반·기본값·선택·레스트 파라미터와 반환 타입을 검사하는 읽기 전용 파일입니다.
+
+수정 전에 확인 명령을 실행하면 `test-cases.ts(13,5): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
 ## 구현 내용
 
-1. 좌석과 라벨 함수의 필수 파라미터, 기본값 파라미터, 반환 타입을 실제 구현과 맞춥니다.
-2. 출력 함수의 선택 파라미터를 문자열로, 태그·키워드 함수의 레스트 파라미터를 문자열 배열로 지정합니다.
-3. 타입을 정한 뒤 불필요해진 런타임 타입 검사 분기를 정리해도 반환 결과는 유지합니다.
+`TODO 4`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
+
+1. `TODO 1`: `reserveSeat`의 필수 파라미터 `seatId`, 기본값 파라미터 `count`, 반환 타입을 실제 구현과 맞춥니다.
+2. `TODO 2`: `printReservation`의 선택 파라미터 `title`을 문자열로 지정합니다.
+3. `TODO 3`: `appendTags`의 레스트 파라미터 `tags`를 문자열 배열로 지정하고, 반환 타입을 실제 구현과 맞춥니다.
+4. `TODO 4`: `createLabel`의 필수 파라미터 `id`, 기본값 파라미터 `prefix`, 반환 타입을 실제 구현과 맞춥니다.
+5. `TODO 5`: `printMessages`의 선택 파라미터 `title`을 문자열로 지정합니다.
+6. `TODO 6`: `addKeywords`의 레스트 파라미터 `keywords`를 문자열 배열로 지정하고, 반환 타입을 실제 구현과 맞춥니다.
 
 ## 확인하기
 
-저장소 루트에서 다음 명령을 실행합니다.
+`codeit-fs-typescript-basic-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
 pnpm run check -- practices/02/17-function-types
@@ -29,9 +36,8 @@ pnpm run check -- practices/02/17-function-types
 
 ## 성공 기준
 
-- 수정 전에는 타입 진단과 함께 종료 코드 `1`이 발생합니다.
-- 여섯 함수의 시그니처가 기대와 일치하면 종료 코드 `0`과 `PASS: practices/02/17-function-types`가 표시됩니다.
+여섯 함수의 시그니처가 기대와 일치하면 진단 없이 `PASS: practices/02/17-function-types`가 표시됩니다.
 
 ## 정답과 비교하기
 
-직접 풀이하고 확인한 뒤 `answers/template.ts`와 비교합니다.
+직접 풀이하고 확인한 뒤 `answers/template.ts`와 비교합니다. 해설과 자주 하는 실수는 `answers/README.md`에 있습니다.

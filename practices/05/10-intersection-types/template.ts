@@ -1,11 +1,11 @@
-// TODO: id 문자열 프로퍼티를 가진 객체 타입으로 바꾸세요.
+// TODO 1: id 문자열 프로퍼티를 가진 객체 타입으로 바꾸세요.
 export type Id = unknown;
-// TODO: createdAt과 updatedAt Date 프로퍼티를 가진 객체 타입으로 바꾸세요.
+// TODO 2: createdAt과 updatedAt Date 프로퍼티를 가진 객체 타입으로 바꾸세요.
 export type Timestamp = unknown;
 
-// TODO: Id와 상품 고유 프로퍼티의 Intersection 타입으로 바꾸세요.
+// TODO 3: Id와 상품 고유 프로퍼티의 Intersection 타입으로 바꾸세요.
 export type Product = any;
-// TODO: Id, Timestamp, 사용자 고유 프로퍼티의 Intersection 타입으로 바꾸세요.
+// TODO 4: Id, Timestamp, 사용자 고유 프로퍼티의 Intersection 타입으로 바꾸세요.
 export type User = any;
 
 export const product: Product = {
@@ -28,18 +28,18 @@ export function getEntityId(entity: Product | User): string {
 
 // 추가 문제
 export interface Attacker {
-  // TODO: 공격력을 숫자 타입으로 바꾸세요.
+  // TODO 5: 공격력을 숫자 타입으로 바꾸세요.
   attackPower: unknown;
   attack(): void;
 }
 
 export interface Defender {
-  // TODO: 방어력을 숫자 타입으로 바꾸세요.
+  // TODO 6: 방어력을 숫자 타입으로 바꾸세요.
   defensePower: unknown;
   defend(): void;
 }
 
-// TODO: Attacker, Defender, 이름 프로퍼티의 Intersection 타입으로 바꾸세요.
+// TODO 7: Attacker, Defender, 이름 프로퍼티의 Intersection 타입으로 바꾸세요.
 export type BattleCharacter = any;
 
 export const character: BattleCharacter = {

@@ -5,9 +5,9 @@ export const book = {
   inStock: true,
 };
 
-// TODO: book 값에서 가져온 타입으로 바꾸세요.
+// TODO 1: book 값에서 가져온 타입으로 바꾸세요.
 export type BookFromValue = any;
-// TODO: BookFromValue의 키 Union 타입으로 바꾸세요.
+// TODO 2: BookFromValue의 키 Union 타입으로 바꾸세요.
 export type BookKey = any;
 
 export const bookKeys: BookKey[] = ["id", "title", "price", "inStock"];
@@ -23,9 +23,9 @@ export const filter = {
   onlyMembers: false,
 };
 
-// TODO: filter 값에서 가져온 타입으로 바꾸세요.
+// TODO 3: filter 값에서 가져온 타입으로 바꾸세요.
 export type FilterFromValue = any;
-// TODO: FilterFromValue의 키 Union 타입으로 바꾸세요.
+// TODO 4: FilterFromValue의 키 Union 타입으로 바꾸세요.
 export type FilterKey = any;
 
 export const filterKeys: FilterKey[] = ["sort", "page", "onlyMembers"];

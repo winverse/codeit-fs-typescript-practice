@@ -1,4 +1,4 @@
-// TODO: 각 멤버의 문자열 값을 S, M, L, XL로 바꾸세요.
+// TODO 1: 각 멤버의 문자열 값을 S, M, L, XL로 바꾸세요.
 export enum Size {
   S = "Small",
   M = "Medium",
@@ -13,7 +13,7 @@ export function printSize(size: Size): string {
 }
 
 // 추가 문제
-// TODO: 각 멤버의 문자열 값을 UP, DOWN, LEFT, RIGHT로 바꾸세요.
+// TODO 2: 각 멤버의 문자열 값을 UP, DOWN, LEFT, RIGHT로 바꾸세요.
 export enum Direction {
   Up = "U",
   Down = "D",

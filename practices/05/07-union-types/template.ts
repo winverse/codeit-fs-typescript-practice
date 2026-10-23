@@ -14,9 +14,9 @@ export interface ShoeProduct extends Product {
   handmade: boolean;
 }
 
-// TODO: ClothingProduct와 ShoeProduct의 Union 타입으로 바꾸세요.
+// TODO 1: ClothingProduct와 ShoeProduct의 Union 타입으로 바꾸세요.
 export type FeaturedProduct = any;
-// TODO: S, M, L, XL 리터럴의 Union 타입으로 바꾸세요.
+// TODO 2: S, M, L, XL 리터럴의 Union 타입으로 바꾸세요.
 export type ClothingSizeOption = any;
 
 export const clothingProduct: FeaturedProduct = {
@@ -52,9 +52,9 @@ export interface GiftCard {
   balance: number;
 }
 
-// TODO: DiscountCoupon과 GiftCard의 Union 타입으로 바꾸세요.
+// TODO 3: DiscountCoupon과 GiftCard의 Union 타입으로 바꾸세요.
 export type Benefit = any;
-// TODO: ready, active, expired 리터럴의 Union 타입으로 바꾸세요.
+// TODO 4: ready, active, expired 리터럴의 Union 타입으로 바꾸세요.
 export type BenefitState = any;
 
 export const coupon: Benefit = {
