@@ -1,11 +1,11 @@
-export type Id = {
+export interface Id {
   id: string;
-};
+}
 
-export type Timestamp = {
+export interface Timestamp {
   createdAt: Date;
   updatedAt: Date;
-};
+}
 
 export type Product = Id & {
   name: string;

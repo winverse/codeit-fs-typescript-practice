@@ -1,16 +1,16 @@
 # Intersection 타입 정답과 해설
 
-`template.ts`에서 `TODO` 주석 아래 타입의 `unknown`·`any`를 다음처럼 바꿉니다. 객체 값과 나머지 코드는 그대로이며, 전체 정답은 `answers/template.ts`에 있습니다.
+`template.ts`에서 `TODO` 주석 아래의 빈 Interface에 프로퍼티를 추가하고, `unknown`·`any`를 다음처럼 바꿉니다. 객체 값과 나머지 코드는 그대로이며, 전체 정답은 `answers/template.ts`에 있습니다.
 
 ```ts
-export type Id = {
+export interface Id {
   id: string;
-};
+}
 
-export type Timestamp = {
+export interface Timestamp {
   createdAt: Date;
   updatedAt: Date;
-};
+}
 
 export type Product = Id & {
   name: string;
@@ -43,7 +43,7 @@ export type BattleCharacter = Attacker &
 
 Intersection 타입은 "이 타입이면서 동시에 저 타입"이라는 뜻을 `&`로 표현합니다. 여러 타입 조각의 조건을 한 번에 모두 만족해야 합니다.
 
-- `TODO 1`: 상품과 사용자에 공통인 `id`를 조각 타입 `Id = { id: string }`으로 따로 둡니다.
+- `TODO 1`: 상품과 사용자에 공통인 `id`를 조각 타입 `Id`의 `id: string` 프로퍼티로 따로 둡니다.
 - `TODO 2`: 시간 정보 조각 `Timestamp`는 `user`에 `new Date()`로 들어가는 두 프로퍼티이므로 `createdAt: Date`, `updatedAt: Date`입니다.
 - `TODO 3`: `Product`는 `Id` 조각과 상품 전용 프로퍼티를 합친 `Id & { name: string; price: number }`입니다. `id`를 다시 적지 않아도 `Id`에서 가져옵니다.
 - `TODO 4`: `User`는 `Id`와 `Timestamp`를 함께 재사용하고 사용자 전용 `username`, `email`을 더해 `Id & Timestamp & { … }`입니다. `getEntityId`는 `Product | User`를 받는데, 두 타입 모두 `Id`를 포함하므로 `entity.id`를 쓸 수 있습니다.

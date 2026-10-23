@@ -1,7 +1,7 @@
-// TODO 1: id 문자열 프로퍼티를 가진 객체 타입으로 바꾸세요.
-export type Id = unknown;
-// TODO 2: createdAt과 updatedAt Date 프로퍼티를 가진 객체 타입으로 바꾸세요.
-export type Timestamp = unknown;
+// TODO 1: Id에 id 문자열 프로퍼티를 추가하세요.
+export interface Id {}
+// TODO 2: Timestamp에 createdAt과 updatedAt Date 프로퍼티를 추가하세요.
+export interface Timestamp {}
 
 // TODO 3: Id와 상품 고유 프로퍼티의 Intersection 타입으로 바꾸세요.
 export type Product = any;

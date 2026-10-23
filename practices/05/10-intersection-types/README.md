@@ -10,7 +10,7 @@
 
 ## 수정할 파일과 시작 상태
 
-- `template.ts`: 조합에 쓸 조각 타입(`Id`, `Timestamp`)은 `unknown`, 조합한 타입(`Product`, `User`)은 `any`여서 객체가 충족해야 할 조건이 사라진 상태입니다.
+- `template.ts`: 조합에 쓸 조각 타입(`Id`, `Timestamp`)은 프로퍼티가 없는 빈 Interface, 조합한 타입(`Product`, `User`)은 `any`여서 객체가 충족해야 할 조건이 사라진 상태입니다.
 - `test-cases.ts`: 공통 타입을 Intersection으로 조합했는지와 각 프로퍼티 타입을 검사하는 읽기 전용 파일입니다.
 
 수정 전에 확인 명령을 실행하면 `test-cases.ts(14,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
@@ -19,8 +19,8 @@
 
 `TODO 5`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
-1. `TODO 1`: `Id`를 `id` 문자열 프로퍼티를 가진 객체 타입으로 선언합니다.
-2. `TODO 2`: `Timestamp`를 `createdAt`과 `updatedAt` `Date` 프로퍼티를 가진 객체 타입으로 선언합니다.
+1. `TODO 1`: `Id` Interface에 `id` 문자열 프로퍼티를 추가합니다.
+2. `TODO 2`: `Timestamp` Interface에 `createdAt`과 `updatedAt` `Date` 프로퍼티를 추가합니다.
 3. `TODO 3`: `Id`를 사용해 `Product`를 `Id`와 상품 고유 프로퍼티(`name`, `price`)의 Intersection 타입으로 만듭니다.
 4. `TODO 4`: `Id`, `Timestamp`를 사용해 `User`를 `Id`, `Timestamp`, 사용자 고유 프로퍼티(`username`, `email`)의 Intersection 타입으로 만듭니다.
 5. `TODO 5`: `Attacker`의 수치 프로퍼티 `attackPower`를 숫자로 바꿉니다.
