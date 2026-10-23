@@ -10,7 +10,7 @@
 
 ## 수정할 파일과 시작 상태
 
-- `template.ts`: Enum 멤버 이름은 맞지만 일부 문자열 값이 문제의 계약과 다릅니다. `productSize`, `moveDirection`과 두 출력 함수는 이미 각 Enum 타입을 쓰고 있으므로 고치지 않습니다.
+- `template.ts`: Enum 멤버 이름은 맞지만 일부 문자열 값이 문제의 계약과 다릅니다. `productSize`, `moveDirection`, `printSize`, `formatDirection`은 이미 각 Enum 타입을 쓰고 있으므로 고치지 않습니다.
 - `test-cases.ts`: 멤버 이름, 문자열 값, 변수와 함수 시그니처를 검사하는 읽기 전용 파일입니다.
 
 수정 전에 확인 명령을 실행하면 `test-cases.ts(20,44): error TS2322: Type 'Size.S' is not assignable to type '"S"'.`처럼 문자열 값이 계약과 다른 Enum 멤버마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 진단의 `"S"`가 그 멤버에 기대하는 문자열 값입니다.

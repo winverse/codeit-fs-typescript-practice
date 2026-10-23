@@ -23,7 +23,7 @@
 2. `TODO 2`: `Course`의 `title`을 값과 맞는 타입으로 바꿉니다.
 3. `TODO 3`: `Course`의 `price`를 값과 맞는 타입으로 바꿉니다.
 4. `TODO 4`: `Course`의 선택 프로퍼티 `published`를 값과 맞는 타입으로 바꿉니다.
-5. `TODO 5`: `OnlineCourse`가 추가하는 `streamingHours`를 숫자로 지정합니다.
+5. `TODO 5`: `OnlineCourse`가 추가하는 `streamingHours`를 값과 맞는 타입으로 바꿉니다.
 6. `TODO 6`: `Account`의 `id`를 값과 맞는 타입으로 바꿉니다.
 7. `TODO 7`: `Account`의 `email`을 값과 맞는 타입으로 바꿉니다.
 8. `TODO 8`: `Account`의 선택 프로퍼티 `displayName`을 값과 맞는 타입으로 바꿉니다.
