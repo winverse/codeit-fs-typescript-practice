@@ -25,6 +25,5 @@ const userId: string = getEntityId(user);
 const totalPower: number = character.attackPower + character.defensePower;
 character.attack();
 character.defend();
-void [productId, userId, totalPower];
 
 export {};

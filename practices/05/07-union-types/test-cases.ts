@@ -33,6 +33,5 @@ const productName1: string = getProductName(clothingProduct);
 const productName2: string = getProductName(shoeProduct);
 const benefitName1: string = getBenefitName(coupon);
 const benefitName2: string = getBenefitName(giftCard);
-void [productName1, productName2, benefitName1, benefitName2];
 
 export {};

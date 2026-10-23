@@ -25,13 +25,5 @@ const upcastCourse: Course = onlineCourse;
 const baseAccount: Account = account;
 const extendedAccount: CreatorAccount = creatorAccount;
 const upcastAccount: Account = creatorAccount;
-void [
-  baseCourse,
-  extendedCourse,
-  upcastCourse,
-  baseAccount,
-  extendedAccount,
-  upcastAccount,
-];
 
 export {};

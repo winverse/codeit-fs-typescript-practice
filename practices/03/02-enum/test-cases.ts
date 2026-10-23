@@ -26,6 +26,5 @@ const directionValues: ["UP", "DOWN", "LEFT", "RIGHT"] = [
 ];
 const sizeMessage: string = printSize(Size.L);
 const directionMessage: string = formatDirection(Direction.Up);
-void [sizeValues, directionValues, sizeMessage, directionMessage];
 
 export {};
