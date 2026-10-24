@@ -19,10 +19,10 @@
 
 `TODO 3`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
-1. `TODO 1`: `FeaturedProduct`를 의류 상품 `ClothingProduct`와 신발 상품 `ShoeProduct`의 Union으로 만듭니다.
-2. `TODO 2`: `ClothingSizeOption`을 `"S"`, `"M"`, `"L"`, `"XL"`의 Union으로 만듭니다.
-3. `TODO 3`: `Benefit`을 쿠폰 `DiscountCoupon`과 기프트카드 `GiftCard`의 Union으로 만듭니다.
-4. `TODO 4`: `BenefitState`를 `"ready"`, `"active"`, `"expired"`의 Union으로 만듭니다.
+1. `TODO 1`: `FeaturedProduct`를 의류 상품 `ClothingProduct`와 신발 상품 `ShoeProduct`의 Union 타입으로 만듭니다.
+2. `TODO 2`: `ClothingSizeOption`을 `"S"`, `"M"`, `"L"`, `"XL"`의 Union 타입으로 만듭니다.
+3. `TODO 3`: `Benefit`을 쿠폰 `DiscountCoupon`과 기프트카드 `GiftCard`의 Union 타입으로 만듭니다.
+4. `TODO 4`: `BenefitState`를 `"ready"`, `"active"`, `"expired"`의 Union 타입으로 만듭니다.
 
 ## 확인하기
 

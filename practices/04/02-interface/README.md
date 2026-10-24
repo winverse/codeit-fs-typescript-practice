@@ -39,7 +39,7 @@ pnpm run check -- practices/04/02-interface
 
 ## 성공 기준
 
-기본·확장 Interface가 기대와 일치하면 진단 없이 `PASS: practices/04/02-interface`가 표시됩니다.
+기본 Interface와 확장한 Interface가 기대와 일치하면 진단 없이 `PASS: practices/04/02-interface`가 표시됩니다.
 
 ## 정답과 비교하기
 

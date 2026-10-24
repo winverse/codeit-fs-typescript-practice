@@ -20,9 +20,9 @@
 `TODO 3`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
 1. `TODO 1`: `BookFromValue`를 `book` 값에서 가져온 타입으로 만듭니다.
-2. `TODO 2`: `BookKey`를 `BookFromValue`의 키 Union 타입으로 만듭니다.
+2. `TODO 2`: `BookKey`를 `BookFromValue`의 키 이름으로 만든 Union 타입으로 만듭니다.
 3. `TODO 3`: `FilterFromValue`를 `filter` 값에서 같은 방식으로 가져온 타입으로 만듭니다.
-4. `TODO 4`: `FilterKey`를 `FilterFromValue`의 키 Union 타입으로 만듭니다.
+4. `TODO 4`: `FilterKey`를 `FilterFromValue`의 키 이름으로 만든 Union 타입으로 만듭니다.
 
 ## 확인하기
 

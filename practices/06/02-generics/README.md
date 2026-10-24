@@ -35,7 +35,7 @@ pnpm run check -- practices/06/02-generics
 
 ## 성공 기준
 
-숫자·문자열 호출의 타입이 각각 유지되면 진단 없이 `PASS: practices/06/02-generics`가 표시됩니다.
+숫자·문자열을 넣은 경우의 타입이 각각 유지되면 진단 없이 `PASS: practices/06/02-generics`가 표시됩니다.
 
 ## 정답과 비교하기
 

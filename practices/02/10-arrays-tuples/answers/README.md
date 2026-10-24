@@ -27,4 +27,4 @@ export const coordinate: readonly [number, number] = [37.5, 127.0];
 
 - 좌표를 `number[]`로 선언하면 `template.ts`에서는 진단이 나오지 않지만, 배열은 길이와 자리의 의미를 표현하지 않으므로 `test-cases.ts(14,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`가 표시됩니다(`point: number[]`로 쓴 경우).
 - `readonly`를 빼고 `[number, number]`로만 써도 같은 `test-cases.ts(14,10)` 진단이 표시됩니다. 이 실습은 바뀌지 않아야 하는 튜플에 `readonly`까지 붙였는지 검사합니다.
-- 2차원 배열을 `number[]`로 선언하면 안쪽 배열을 숫자 자리에 넣는 셈이 되어, `template.ts`의 `sizeMatrix` 줄에 `error TS2322: Type '[number, number]' is not assignable to type 'number'.`가 표시됩니다.
+- 배열의 배열을 `number[]`로 선언하면 안쪽 배열을 숫자 자리에 넣는 셈이 되어, `template.ts`의 `sizeMatrix` 줄에 `error TS2322: Type '[number, number]' is not assignable to type 'number'.`가 표시됩니다.

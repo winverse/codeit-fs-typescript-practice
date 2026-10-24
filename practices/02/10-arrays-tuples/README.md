@@ -20,11 +20,11 @@
 `TODO 4`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
 1. `TODO 1`: `cartIds`를 문자열 배열 타입으로 선언합니다.
-2. `TODO 2`: `sizeMatrix`를 숫자 배열의 배열(2차원 배열) 타입으로 선언합니다.
-3. `TODO 3`: `point`를 숫자 두 개의 readonly 튜플 타입으로 선언합니다.
-4. `TODO 4`: `orderLine`을 문자열·숫자·불린 순서의 readonly 튜플 타입으로 선언합니다.
-5. `TODO 5`: `discountGroups`를 문자열 배열의 배열(2차원 배열) 타입으로 선언합니다.
-6. `TODO 6`: `coordinate`를 숫자 두 개의 readonly 튜플 타입으로 선언합니다.
+2. `TODO 2`: `sizeMatrix`를 숫자 배열의 배열 타입으로 선언합니다.
+3. `TODO 3`: `point`를 숫자 두 개의 `readonly` 튜플 타입으로 선언합니다.
+4. `TODO 4`: `orderLine`을 문자열·숫자·불린 순서의 `readonly` 튜플 타입으로 선언합니다.
+5. `TODO 5`: `discountGroups`를 문자열 배열의 배열 타입으로 선언합니다.
+6. `TODO 6`: `coordinate`를 숫자 두 개의 `readonly` 튜플 타입으로 선언합니다.
 
 ## 확인하기
 
