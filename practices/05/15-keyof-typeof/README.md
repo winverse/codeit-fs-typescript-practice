@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-basic-practice` 폴더의 `practices/05/15-keyof-typeof`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/05/15-keyof-typeof`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -26,7 +26,7 @@
 
 ## 확인하기
 
-`codeit-fs-typescript-basic-practice` 폴더에서 다음 명령을 실행합니다.
+`codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
 pnpm run check -- practices/05/15-keyof-typeof

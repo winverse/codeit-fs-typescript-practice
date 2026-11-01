@@ -19,7 +19,7 @@
 
 ## 처음 한 번 준비하기
 
-이 README가 있는 `codeit-fs-typescript-basic-practice` 폴더(저장소 루트)에서 의존성을 설치하고 시작 상태를 확인합니다. 이 README의 모든 명령은 이 폴더에서 실행합니다.
+이 README가 있는 `codeit-fs-typescript-practice` 폴더(저장소 루트)에서 의존성을 설치하고 시작 상태를 확인합니다. 이 README의 모든 명령은 이 폴더에서 실행합니다.
 
 ```bash
 pnpm install
