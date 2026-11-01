@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/05/10-intersection-types`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/05/08-intersection-types`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -32,12 +32,12 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/05/10-intersection-types
+pnpm run check -- practices/05/08-intersection-types
 ```
 
 ## 성공 기준
 
-모든 Intersection 타입과 프로퍼티가 기대와 일치하면 진단 없이 `PASS: practices/05/10-intersection-types`가 표시됩니다.
+모든 Intersection 타입과 프로퍼티가 기대와 일치하면 진단 없이 `PASS: practices/05/08-intersection-types`가 표시됩니다.
 
 ## 정답과 비교하기
 
