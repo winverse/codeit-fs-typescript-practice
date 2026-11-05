@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/02/05-type-annotation`에서 진행합니다. 의존성을 아직 설치하지 않았다면 `codeit-fs-typescript-practice` 폴더에서 먼저 설치합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/02/06-type-annotation`에서 진행합니다. 의존성을 아직 설치하지 않았다면 `codeit-fs-typescript-practice` 폴더에서 먼저 설치합니다.
 
 ```bash
 pnpm install
@@ -35,12 +35,12 @@ pnpm install
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/02/05-type-annotation
+pnpm run check -- practices/02/06-type-annotation
 ```
 
 ## 성공 기준
 
-모든 변수의 타입이 기대와 일치하면 진단 없이 `PASS: practices/02/05-type-annotation`이 표시됩니다.
+모든 변수의 타입이 기대와 일치하면 진단 없이 `PASS: practices/02/06-type-annotation`이 표시됩니다.
 
 ## 정답과 비교하기
 
