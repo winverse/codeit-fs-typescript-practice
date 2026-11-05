@@ -4,11 +4,11 @@
 
 | 폴더                                 | 완성할 내용                                |
 | ------------------------------------ | ------------------------------------------ |
-| `practices/02/04-type-annotation`    | 나중에 값이 할당되는 변수의 타입 직접 선언 |
-| `practices/02/07-primitives`         | 값에 맞는 원시 타입                        |
-| `practices/02/09-arrays-tuples`      | 배열과 `readonly` 튜플                     |
-| `practices/02/11-object-types`       | 필수·선택 프로퍼티와 인덱스 시그니처       |
-| `practices/02/14-function-types`     | 파라미터·반환·선택·레스트 파라미터 타입    |
+| `practices/02/05-type-annotation`    | 나중에 값이 할당되는 변수의 타입 직접 선언 |
+| `practices/02/08-primitives`         | 값에 맞는 원시 타입                        |
+| `practices/02/10-arrays-tuples`      | 배열과 `readonly` 튜플                     |
+| `practices/02/12-object-types`       | 필수·선택 프로퍼티와 인덱스 시그니처       |
+| `practices/02/15-function-types`     | 파라미터·반환·선택·레스트 파라미터 타입    |
 | `practices/03/02-enum`               | 문자열 Enum의 값                           |
 | `practices/04/02-interface`          | Interface 프로퍼티와 확장                  |
 | `practices/05/02-literal-types`      | 리터럴 타입과 넓은 타입                    |
@@ -46,9 +46,9 @@ pnpm run check:starts
 3. 저장소 루트에서 확인 명령을 실행합니다. 예를 들어 첫 문제는 다음 명령으로 확인합니다.
 
    ```bash
-   pnpm run check -- practices/02/04-type-annotation
+   pnpm run check -- practices/02/05-type-annotation
    ```
 
-   모든 타입이 맞으면 `PASS: practices/02/04-type-annotation`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.
+   모든 타입이 맞으면 `PASS: practices/02/05-type-annotation`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.
 
 4. 통과한 뒤 `answers/template.ts`, `answers/README.md`와 비교합니다.
