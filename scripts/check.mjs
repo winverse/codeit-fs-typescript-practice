@@ -77,7 +77,7 @@ if (mode === "--answers" || mode === "--starts") {
   );
 } else {
   if (!practicePaths.includes(mode)) {
-    console.error("사용법: pnpm run check -- <practice 경로>");
+    console.error("사용법: pnpm check -- <practice 경로>");
     process.exit(1);
   }
 

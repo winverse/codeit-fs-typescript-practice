@@ -30,7 +30,7 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/06/02-generics
+pnpm check -- practices/06/02-generics
 ```
 
 ## 성공 기준

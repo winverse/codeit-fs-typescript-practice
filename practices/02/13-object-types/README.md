@@ -31,7 +31,7 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/02/13-object-types
+pnpm check -- practices/02/13-object-types
 ```
 
 ## 성공 기준

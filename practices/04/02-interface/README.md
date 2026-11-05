@@ -34,7 +34,7 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/04/02-interface
+pnpm check -- practices/04/02-interface
 ```
 
 ## 성공 기준

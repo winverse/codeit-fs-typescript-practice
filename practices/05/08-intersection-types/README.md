@@ -32,7 +32,7 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/05/08-intersection-types
+pnpm check -- practices/05/08-intersection-types
 ```
 
 ## 성공 기준

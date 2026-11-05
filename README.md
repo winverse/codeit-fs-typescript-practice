@@ -23,7 +23,7 @@
 
 ```bash
 pnpm install
-pnpm run check:starts
+pnpm check:starts
 ```
 
 마지막 줄에 `start checks: 12/12`가 표시되면 12개 문제가 모두 풀이 전 상태로 준비된 것입니다. 풀이 전 문제는 일부러 타입 검사에 실패하도록 만들어져 있고, 이 명령은 12개 문제가 모두 그렇게 실패하는지 확인합니다.
@@ -46,7 +46,7 @@ pnpm run check:starts
 3. 저장소 루트에서 확인 명령을 실행합니다. 예를 들어 첫 문제는 다음 명령으로 확인합니다.
 
    ```bash
-   pnpm run check -- practices/02/06-type-annotation
+   pnpm check -- practices/02/06-type-annotation
    ```
 
    모든 타입이 맞으면 `PASS: practices/02/06-type-annotation`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.

@@ -27,7 +27,7 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm run check -- practices/03/02-enum
+pnpm check -- practices/03/02-enum
 ```
 
 ## 성공 기준
