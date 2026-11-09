@@ -1,14 +1,14 @@
 [
   "practices/02/06-type-annotation",
   "practices/02/09-primitives",
-  "practices/02/11-arrays-tuples",
-  "practices/02/13-object-types",
-  "practices/02/16-function-types",
+  "practices/02/12-arrays-tuples",
+  "practices/02/15-object-types",
+  "practices/02/19-function-types",
   "practices/03/02-enum",
-  "practices/04/02-interface",
-  "practices/05/02-literal-types",
-  "practices/05/06-union-types",
-  "practices/05/08-intersection-types",
-  "practices/05/12-keyof-typeof",
-  "practices/06/02-generics"
+  "practices/03/05-interface",
+  "practices/03/08-literal-types",
+  "practices/03/13-union-types",
+  "practices/03/16-intersection-types",
+  "practices/03/21-keyof-typeof",
+  "practices/04/02-generics"
 ]

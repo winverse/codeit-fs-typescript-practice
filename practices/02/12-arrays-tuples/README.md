@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/02/11-arrays-tuples`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/02/12-arrays-tuples`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -31,12 +31,12 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm check -- practices/02/11-arrays-tuples
+pnpm check -- practices/02/12-arrays-tuples
 ```
 
 ## 성공 기준
 
-배열과 튜플의 타입이 기대와 일치하면 진단 없이 `PASS: practices/02/11-arrays-tuples`가 표시됩니다.
+배열과 튜플의 타입이 기대와 일치하면 진단 없이 `PASS: practices/02/12-arrays-tuples`가 표시됩니다.
 
 ## 정답과 비교하기
 
