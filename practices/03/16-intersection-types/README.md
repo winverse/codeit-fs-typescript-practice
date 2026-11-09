@@ -21,8 +21,8 @@
 
 1. `TODO 1`: `Id` Interface에 `id` 문자열 프로퍼티를 추가합니다.
 2. `TODO 2`: `Timestamp` Interface에 `createdAt`과 `updatedAt` `Date` 프로퍼티를 추가합니다.
-3. `TODO 3`: `Id`를 사용해 `Product`를 `Id`와 상품 고유 프로퍼티(`name`, `price`)의 Intersection 타입으로 만듭니다.
-4. `TODO 4`: `Id`, `Timestamp`를 사용해 `User`를 `Id`, `Timestamp`, 사용자 고유 프로퍼티(`username`, `email`)의 Intersection 타입으로 만듭니다.
+3. `TODO 3`: `Product`를 `Id`와 상품 고유 프로퍼티(`name`, `price`)의 Intersection 타입으로 만듭니다.
+4. `TODO 4`: `User`를 `Id`, `Timestamp`, 사용자 고유 프로퍼티(`username`, `email`)의 Intersection 타입으로 만듭니다.
 5. `TODO 5`: `Attacker`의 수치 프로퍼티 `attackPower`를 숫자 타입으로 바꿉니다.
 6. `TODO 6`: `Defender`의 수치 프로퍼티 `defensePower`를 숫자 타입으로 바꿉니다.
 7. `TODO 7`: `BattleCharacter`를 공격·방어 계약(`Attacker`, `Defender`)과 이름 프로퍼티의 Intersection 타입으로 만듭니다.
