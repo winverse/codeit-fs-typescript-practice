@@ -19,10 +19,10 @@
 
 `TODO 3`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
-1. `TODO 1`: `pinnedNotice`를 현재 값 `"공지"`만 허용하는 리터럴 타입으로 만듭니다.
-2. `TODO 2`: `printPinnedNotice`가 `"공지"` 리터럴만 받고 같은 리터럴을 반환하게 선언합니다.
-3. `TODO 3`: `freeShipping`을 현재 값 `true`만 허용하는 리터럴 타입으로 만듭니다.
-4. `TODO 4`: `acceptFirstStep`이 `1` 리터럴만 받고 같은 리터럴을 반환하게 선언합니다.
+1. `TODO 1`: `pinnedNotice`를 다시 할당할 수 없는 변수로 바꿔 현재 값 `"공지"`만 허용하는 리터럴 타입으로 추론되게 합니다.
+2. `TODO 2`: `printPinnedNotice`의 파라미터 `notice`가 `"공지"` 리터럴만 받게 선언합니다.
+3. `TODO 3`: `freeShipping`을 다시 할당할 수 없는 변수로 바꿔 현재 값 `true`만 허용하는 리터럴 타입으로 추론되게 합니다.
+4. `TODO 4`: `acceptFirstStep`의 파라미터 `step`이 `1` 리터럴만 받게 선언합니다.
 
 ## 확인하기
 
