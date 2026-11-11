@@ -53,7 +53,7 @@ export const levelByCourse: { [courseId: string]: number } = {
 - `TODO 5`: `guestProfile`에 `memberProfile`과 같은 객체 타입을 적습니다.
 - `TODO 6`: `levelByCourse`도 강의별 값이 모두 숫자인 사전 형태이므로 인덱스 시그니처 `{ [courseId: string]: number }`입니다.
 
-인덱스 시그니처의 `isbn`, `courseId`는 설명을 위한 자리표시자 이름입니다. `[id: string]`처럼 다른 이름을 써도 확인 명령은 통과합니다.
+인덱스 시그니처의 `isbn`, `courseId`는 설명을 위해 붙인 이름입니다. `[id: string]`처럼 다른 이름을 써도 확인 명령은 통과합니다.
 
 ## 자주 하는 실수
 
