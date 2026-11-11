@@ -14,16 +14,16 @@ pnpm install
 
 ## 수정할 파일과 시작 상태
 
-- `template.ts`: 초깃값이 있는 변수와 나중에 값이 할당되는 변수가 함께 있습니다. 초깃값이 있는 `productId`, `price`, `membersOnly`, `courseName`, `lessonCount`는 타입 추론에 맡기므로 고치지 않습니다. 나중에 값이 할당되는 변수 중 `TODO`가 붙은 변수는 타입도 초깃값도 없어 TypeScript가 타입을 정하지 못하고, 타입 검사를 대부분 하지 않는 `any` 타입으로 처리합니다.
+- `template.ts`: 초깃값이 있는 변수와 나중에 값이 할당되는 변수가 함께 있습니다. 초깃값이 있는 `productId`, `price`, `membersOnly`, `courseName`, `lessonCount`는 타입 추론에 맡기므로 고치지 않습니다. 나중에 값이 할당되는 변수는 타입도 초깃값도 없어 TypeScript가 타입을 정하지 못하고, 타입 검사를 대부분 하지 않는 `any` 타입으로 처리합니다.
 - `test-cases.ts`: 각 변수의 최종 타입을 검사하는 파일이며 고치지 않습니다.
 
-수정 전에 확인 명령을 실행하면 `template.ts`의 `TODO` 아래 변수마다 `template.ts(9,12): error TS7005: Variable 'maxStudents' implicitly has an 'any' type.` 같은 진단이 표시됩니다. 타입을 적지 않아 `any`가 되었다는 뜻입니다. 이어서 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 `error TS2344: Type 'false' does not satisfy the constraint 'true'.` 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 그 파일의 줄과 칸이며, `test-cases.ts` 진단은 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
+수정 전에 확인 명령을 실행하면 `template.ts`의 `TODO` 아래 변수마다 `template.ts(6,12): error TS7005: Variable 'managerName' implicitly has an 'any' type.` 같은 진단이 표시됩니다. 타입을 적지 않아 `any`가 되었다는 뜻입니다. 이어서 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 `error TS2344: Type 'false' does not satisfy the constraint 'true'.` 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 그 파일의 줄과 칸이며, `test-cases.ts` 진단은 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
 ## 구현 내용
 
-`TODO 1`은 `// 예시(TODO 1):` 주석과 함께 풀어 둔 예시이므로 `TODO 2`부터 풉니다. `TODO 4`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
+`TODO 4`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
-1. `TODO 1`(예시): `managerName`에 나중에 할당되는 문자열 값에 맞는 타입을 직접 선언했습니다.
+1. `TODO 1`: `managerName`에 나중에 할당되는 문자열 값에 맞는 타입을 직접 선언합니다.
 2. `TODO 2`: `maxStudents`에 나중에 할당되는 숫자 값에 맞는 타입을 직접 선언합니다.
 3. `TODO 3`: `isClosed`에 나중에 할당되는 불린 값에 맞는 타입을 직접 선언합니다.
 4. `TODO 4`: `classroomLabel`에 나중에 할당되는 문자열 값에 맞는 타입을 직접 선언합니다.

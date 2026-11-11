@@ -10,16 +10,16 @@
 
 ## 수정할 파일과 시작 상태
 
-- `template.ts`: 예시로 풀어 둔 `emptyTitle`을 빼면 모든 값의 타입이 `unknown`(값의 타입이 아직 확인되지 않았다는 뜻)으로 선언되어 있습니다.
+- `template.ts`: 모든 값의 타입이 `unknown`(값의 타입이 아직 확인되지 않았다는 뜻)으로 선언되어 있습니다.
 - `test-cases.ts`: 각 값이 기대하는 원시 타입인지 검사하는 파일이며 고치지 않습니다.
 
-수정 전에 확인 명령을 실행하면 `test-cases.ts(18,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
+수정 전에 확인 명령을 실행하면 `test-cases.ts(17,10): error TS2344: Type 'false' does not satisfy the constraint 'true'.`처럼 `test-cases.ts`에서 기대와 다른 타입을 검사하는 줄마다 진단이 표시되고, 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다. 괄호 안 숫자는 `test-cases.ts`의 줄과 칸이며, 그 줄 `Equal<…, …>`의 앞쪽(지금 코드의 타입)이 뒤쪽(기대하는 타입)과 같지 않다는 뜻입니다.
 
 ## 구현 내용
 
-`TODO 1`은 `// 예시(TODO 1):` 주석과 함께 풀어 둔 예시이므로 `TODO 2`부터 풉니다. 각 `TODO` 아래 변수의 `unknown`을 값에 맞는 원시 타입으로 바꿉니다. `TODO 7`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
+각 `TODO` 아래 변수의 `unknown`을 값에 맞는 원시 타입으로 바꿉니다. `TODO 7`부터는 `// 추가 문제` 아래에 있으며, 확인 명령은 추가 문제까지 함께 검사합니다.
 
-1. `TODO 1`(예시): `emptyTitle`(값 `""`)의 타입을 바꿨습니다.
+1. `TODO 1`: `emptyTitle`(값 `""`)의 타입을 바꿉니다.
 2. `TODO 2`: `stock`(값 `NaN`)의 타입을 바꿉니다.
 3. `TODO 3`: `shippingFee`(값 `Infinity`)의 타입을 바꿉니다.
 4. `TODO 4`: `isDigital`(값 `true`)의 타입을 바꿉니다.

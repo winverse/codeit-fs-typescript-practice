@@ -1,6 +1,5 @@
-// 예시(TODO 1): any일 때는 test-cases.ts 21·22번 줄에 TS2344 진단이 나왔습니다.
-// 타입 파라미터 T를 추가해 입력 타입이 반환하는 배열의 요소 타입으로 이어지게 했습니다.
-export function wrapInArray<T>(value: T): T[] {
+// TODO 1: 입력 타입을 배열 요소 타입으로 유지하는 제네릭 함수로 바꾸세요.
+export function wrapInArray(value: any): any[] {
   return [value];
 }
 

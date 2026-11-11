@@ -1,7 +1,6 @@
 export interface Course {
-  // 예시(TODO 1): unknown일 때는 test-cases.ts 11번 줄에 TS2344 진단이 나왔습니다.
-  // course의 id 값 "ts-101"이 문자열이므로 unknown을 string으로 바꿨습니다.
-  id: string;
+  // TODO 1: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
+  id: unknown;
   // TODO 2: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.
   title: unknown;
   // TODO 3: 값에 맞는 프로퍼티 타입으로 unknown을 바꾸세요.

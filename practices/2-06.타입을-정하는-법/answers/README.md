@@ -1,6 +1,6 @@
 # 타입을 정하는 법 정답과 해설
 
-`template.ts`에서 `TODO` 주석 아래 변수 선언을 다음처럼 바꿉니다. 첫 줄 `managerName`은 `TODO 1` 예시로 이미 바꿔 둔 줄입니다. 전체 정답은 `answers/template.ts`에 있습니다.
+`template.ts`에서 `TODO` 주석 아래 변수 선언 여섯 줄을 다음처럼 바꿉니다. 전체 정답은 `answers/template.ts`에 있습니다.
 
 ```ts
 export let managerName: string;

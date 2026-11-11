@@ -1,8 +1,5 @@
-// 예시(TODO 1): 빈 Interface일 때는 test-cases.ts 14번 줄에 TS2344 진단이 나왔습니다.
-// 상품과 사용자에 공통인 id를 문자열 프로퍼티로 추가했습니다.
-export interface Id {
-  id: string;
-}
+// TODO 1: Id에 id 문자열 프로퍼티를 추가하세요.
+export interface Id {}
 // TODO 2: Timestamp에 createdAt과 updatedAt Date 프로퍼티를 추가하세요.
 export interface Timestamp {}
 

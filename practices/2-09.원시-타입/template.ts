@@ -1,6 +1,5 @@
-// 예시(TODO 1): unknown일 때는 test-cases.ts 17번 줄에 TS2344 진단이 나왔습니다.
-// 빈 문자열 ""도 문자열이므로 unknown을 string으로 바꿨습니다.
-export let emptyTitle: string = "";
+// TODO 1: 값에 맞는 원시 타입으로 unknown을 바꾸세요.
+export let emptyTitle: unknown = "";
 // TODO 2: 값에 맞는 원시 타입으로 unknown을 바꾸세요.
 export let stock: unknown = NaN;
 // TODO 3: 값에 맞는 원시 타입으로 unknown을 바꾸세요.

@@ -14,9 +14,8 @@ export interface ShoeProduct extends Product {
   handmade: boolean;
 }
 
-// 예시(TODO 1): any일 때는 test-cases.ts 24번 줄에 TS2344 진단이 나왔습니다.
-// 의류 상품과 신발 상품을 모두 받도록 ClothingProduct와 ShoeProduct의 Union 타입으로 바꿨습니다.
-export type FeaturedProduct = ClothingProduct | ShoeProduct;
+// TODO 1: ClothingProduct와 ShoeProduct의 Union 타입으로 바꾸세요.
+export type FeaturedProduct = any;
 // TODO 2: S, M, L, XL 리터럴의 Union 타입으로 바꾸세요.
 export type ClothingSizeOption = any;
 

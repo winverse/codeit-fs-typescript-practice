@@ -5,9 +5,8 @@ export const book = {
   inStock: true,
 };
 
-// 예시(TODO 1): any일 때는 test-cases.ts 18번 줄에 TS2344 진단이 나왔습니다.
-// typeof로 book 값의 구조를 그대로 가져온 타입으로 바꿨습니다.
-export type BookFromValue = typeof book;
+// TODO 1: book 값에서 가져온 타입으로 바꾸세요.
+export type BookFromValue = any;
 // TODO 2: book 값의 키 Union 타입으로 바꾸세요.
 export type BookKey = any;
 

@@ -1,12 +1,5 @@
-// 예시(TODO 1): unknown일 때는 test-cases.ts 28번 줄에 TS2344 진단이 나왔습니다.
-// 값에 맞춰 객체 타입을 적고, ebook에는 없는 discountRate에는 ?를 붙여 선택 프로퍼티로 두었습니다.
-export const book: {
-  id: string;
-  title: string;
-  price: number;
-  discountRate?: number;
-  tags: string[];
-} = {
+// TODO 1: 필수 프로퍼티와 선택 프로퍼티를 포함한 책 객체 타입으로 unknown을 바꾸세요.
+export const book: unknown = {
   id: "b001",
   title: "정적 타이핑 안내서",
   price: 18_000,
