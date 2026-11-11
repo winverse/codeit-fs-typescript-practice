@@ -30,7 +30,7 @@ const compilerArgs = [
   "--skipLibCheck",
 ];
 const expectedStartDiagnostics = {
-  "practices/3장/02-Enum": "TS2322",
+  "practices/3-02.Enum": "TS2322",
 };
 
 function run(testFile) {

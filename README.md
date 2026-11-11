@@ -2,20 +2,20 @@
 
 `TypeScript 기본` 강의의 연습문제 12개를 담은 저장소입니다. 각 문제의 코드에는 타입이 비어 있거나 기대와 다르게 적힌 자리가 `TODO`로 남아 있고, 그 자리를 강의에서 배운 대로 고쳐 타입 검사를 통과시키는 것이 목표입니다. 문제끼리는 서로 이어지지 않으므로 교재가 안내하는 순서대로 하나씩 독립적으로 풉니다.
 
-| 폴더                                     | 완성할 내용                                |
-| ---------------------------------------- | ------------------------------------------ |
-| `practices/2장/06-타입을-정하는-법`      | 나중에 값이 할당되는 변수의 타입 직접 선언 |
-| `practices/2장/09-원시-타입`             | 값에 맞는 원시 타입                        |
-| `practices/2장/12-배열과-튜플`           | 배열과 `readonly` 튜플                     |
-| `practices/2장/15-객체-타입`             | 필수·선택 프로퍼티와 인덱스 시그니처       |
-| `practices/2장/19-함수에-타입-정하기`    | 파라미터·반환·선택·레스트 파라미터 타입    |
-| `practices/3장/02-Enum`                  | 문자열 Enum의 값                           |
-| `practices/3장/05-Interface`             | Interface 프로퍼티와 확장                  |
-| `practices/3장/08-리터럴-타입`           | 리터럴 타입과 넓은 타입                    |
-| `practices/3장/13-Union-타입`            | 객체 타입 Union과 리터럴 Union             |
-| `practices/3장/16-Intersection-타입`     | Intersection으로 타입 조합                 |
-| `practices/3장/21-keyof와-typeof-연산자` | `typeof`로 가져온 타입과 `keyof` 키 Union  |
-| `practices/4장/02-제네릭`                | 제네릭 함수와 제네릭 Interface             |
+| 폴더                                   | 완성할 내용                                |
+| -------------------------------------- | ------------------------------------------ |
+| `practices/2-06.타입을-정하는-법`      | 나중에 값이 할당되는 변수의 타입 직접 선언 |
+| `practices/2-09.원시-타입`             | 값에 맞는 원시 타입                        |
+| `practices/2-12.배열과-튜플`           | 배열과 `readonly` 튜플                     |
+| `practices/2-15.객체-타입`             | 필수·선택 프로퍼티와 인덱스 시그니처       |
+| `practices/2-19.함수에-타입-정하기`    | 파라미터·반환·선택·레스트 파라미터 타입    |
+| `practices/3-02.Enum`                  | 문자열 Enum의 값                           |
+| `practices/3-05.Interface`             | Interface 프로퍼티와 확장                  |
+| `practices/3-08.리터럴-타입`           | 리터럴 타입과 넓은 타입                    |
+| `practices/3-13.Union-타입`            | 객체 타입 Union과 리터럴 Union             |
+| `practices/3-16.Intersection-타입`     | Intersection으로 타입 조합                 |
+| `practices/3-21.keyof와-typeof-연산자` | `typeof`로 가져온 타입과 `keyof` 키 Union  |
+| `practices/4-02.제네릭`                | 제네릭 함수와 제네릭 Interface             |
 
 ## 처음 한 번 준비하기
 
@@ -33,7 +33,7 @@ pnpm check:starts
 문제 폴더마다 다음 파일이 있습니다.
 
 - `README.md`: 그 문제의 목표, 시작 상태, `TODO` 번호별 구현 내용, 확인 명령, 성공 기준
-- `template.ts`: 직접 고치는 파일입니다. 고칠 자리에는 `// TODO 1:`처럼 번호가 붙은 주석이 있고, `// 추가 문제` 아래 `TODO`까지 확인 명령이 함께 검사합니다.
+- `template.ts`: 직접 고치는 파일입니다. 고칠 자리에는 `// TODO 2:`처럼 번호가 붙은 주석이 있고, `// 추가 문제` 아래 `TODO`까지 확인 명령이 함께 검사합니다. `TODO 1`은 `// 예시(TODO 1):` 주석과 함께 풀어 둔 예시입니다.
 - `test-cases.ts`: `template.ts`의 타입이 기대와 같은지 검사하는 읽기 전용 파일입니다. 고치지 않습니다.
 - `answers/`: 정답 `template.ts`와 해설 `README.md`가 있습니다. 문제를 푼 뒤에만 엽니다.
 
@@ -42,13 +42,13 @@ pnpm check:starts
 ## 문제 풀기
 
 1. 교재가 안내하는 문제 폴더의 `README.md`를 읽습니다.
-2. `template.ts`에서 `TODO` 번호 순서대로 타입을 고칩니다.
+2. `template.ts`의 `// 예시(TODO 1):` 주석에서 풀기 전에 어떤 진단이 나왔고 무엇을 바꿨는지 확인한 뒤, `TODO 2`부터 번호 순서대로 타입을 고칩니다. `practices/3-02.Enum`은 `TODO 1`의 첫 멤버만 예시로 바꿔 두었으므로 `TODO 1`의 나머지 멤버부터 고칩니다.
 3. 저장소 루트에서 확인 명령을 실행합니다. 예를 들어 첫 문제는 다음 명령으로 확인합니다.
 
    ```bash
-   pnpm check -- practices/2장/06-타입을-정하는-법
+   pnpm check -- practices/2-06.타입을-정하는-법
    ```
 
-   모든 타입이 맞으면 `PASS: practices/2장/06-타입을-정하는-법`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.
+   모든 타입이 맞으면 `PASS: practices/2-06.타입을-정하는-법`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.
 
 4. 통과한 뒤 `answers/template.ts`, `answers/README.md`와 비교합니다.
