@@ -6,15 +6,15 @@
 | -------------------------------------- | ------------------------------------------ |
 | `practices/2-06.타입을-정하는-법`      | 나중에 값이 할당되는 변수의 타입 직접 선언 |
 | `practices/2-09.원시-타입`             | 값에 맞는 원시 타입                        |
-| `practices/2-12.배열과-튜플`           | 배열과 `readonly` 튜플                     |
-| `practices/2-15.객체-타입`             | 필수·선택 프로퍼티와 인덱스 시그니처       |
-| `practices/2-19.함수에-타입-정하기`    | 파라미터·반환·선택·레스트 파라미터 타입    |
+| `practices/2-11.배열과-튜플`           | 배열과 `readonly` 튜플                     |
+| `practices/2-13.객체-타입`             | 필수·선택 프로퍼티와 인덱스 시그니처       |
+| `practices/2-16.함수에-타입-정하기`    | 파라미터·반환·선택·레스트 파라미터 타입    |
 | `practices/3-02.Enum`                  | 문자열 Enum의 값                           |
-| `practices/3-05.Interface`             | Interface 프로퍼티와 확장                  |
-| `practices/3-08.리터럴-타입`           | 리터럴 타입과 넓은 타입                    |
-| `practices/3-13.Union-타입`            | 객체 타입 Union과 리터럴 Union             |
-| `practices/3-16.Intersection-타입`     | Intersection으로 타입 조합                 |
-| `practices/3-21.keyof와-typeof-연산자` | `typeof`로 가져온 타입과 `keyof` 키 Union  |
+| `practices/3-04.Interface`             | Interface 프로퍼티와 확장                  |
+| `practices/3-06.리터럴-타입`           | 리터럴 타입과 넓은 타입                    |
+| `practices/3-11.Union-타입`            | 객체 타입 Union과 리터럴 Union             |
+| `practices/3-13.Intersection-타입`     | Intersection으로 타입 조합                 |
+| `practices/3-17.keyof와-typeof-연산자` | `typeof`로 가져온 타입과 `keyof` 키 Union  |
 | `practices/4-02.제네릭`                | 제네릭 함수와 제네릭 Interface             |
 
 ## 처음 한 번 준비하기

@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/3-21.keyof와-typeof-연산자`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/3-17.keyof와-typeof-연산자`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -29,12 +29,12 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm check -- practices/3-21.keyof와-typeof-연산자
+pnpm check -- practices/3-17.keyof와-typeof-연산자
 ```
 
 ## 성공 기준
 
-값에서 가져온 타입, 키 이름의 Union 타입, 읽기 함수의 반환 타입이 기대와 일치하면 진단 없이 `PASS: practices/3-21.keyof와-typeof-연산자`가 표시됩니다.
+값에서 가져온 타입, 키 이름의 Union 타입, 읽기 함수의 반환 타입이 기대와 일치하면 진단 없이 `PASS: practices/3-17.keyof와-typeof-연산자`가 표시됩니다.
 
 ## 정답과 비교하기
 
