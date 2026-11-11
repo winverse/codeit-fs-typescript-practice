@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/03/08-literal-types`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/3장/08-리터럴-타입`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -29,12 +29,12 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm check -- practices/03/08-literal-types
+pnpm check -- practices/3장/08-리터럴-타입
 ```
 
 ## 성공 기준
 
-리터럴 타입과 넓은 타입이 기대와 일치하면 진단 없이 `PASS: practices/03/08-literal-types`가 표시됩니다.
+리터럴 타입과 넓은 타입이 기대와 일치하면 진단 없이 `PASS: practices/3장/08-리터럴-타입`가 표시됩니다.
 
 ## 정답과 비교하기
 

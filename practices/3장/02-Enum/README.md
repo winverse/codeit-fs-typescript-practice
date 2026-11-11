@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/03/02-enum`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/3장/02-Enum`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -27,12 +27,12 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm check -- practices/03/02-enum
+pnpm check -- practices/3장/02-Enum
 ```
 
 ## 성공 기준
 
-모든 문자열 값과 시그니처가 맞으면 진단 없이 `PASS: practices/03/02-enum`이 표시됩니다.
+모든 문자열 값과 시그니처가 맞으면 진단 없이 `PASS: practices/3장/02-Enum`이 표시됩니다.
 
 ## 정답과 비교하기
 

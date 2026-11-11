@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-`codeit-fs-typescript-practice` 폴더의 `practices/04/02-generics`에서 진행합니다.
+`codeit-fs-typescript-practice` 폴더의 `practices/4장/02-제네릭`에서 진행합니다.
 
 ## 수정할 파일과 시작 상태
 
@@ -30,12 +30,12 @@
 `codeit-fs-typescript-practice` 폴더에서 다음 명령을 실행합니다.
 
 ```bash
-pnpm check -- practices/04/02-generics
+pnpm check -- practices/4장/02-제네릭
 ```
 
 ## 성공 기준
 
-숫자·문자열을 넣은 경우의 타입이 각각 유지되면 진단 없이 `PASS: practices/04/02-generics`가 표시됩니다.
+숫자·문자열을 넣은 경우의 타입이 각각 유지되면 진단 없이 `PASS: practices/4장/02-제네릭`가 표시됩니다.
 
 ## 정답과 비교하기
 

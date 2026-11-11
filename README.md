@@ -2,20 +2,20 @@
 
 `TypeScript 기본` 강의의 연습문제 12개를 담은 저장소입니다. 각 문제의 코드에는 타입이 비어 있거나 기대와 다르게 적힌 자리가 `TODO`로 남아 있고, 그 자리를 강의에서 배운 대로 고쳐 타입 검사를 통과시키는 것이 목표입니다. 문제끼리는 서로 이어지지 않으므로 교재가 안내하는 순서대로 하나씩 독립적으로 풉니다.
 
-| 폴더                                 | 완성할 내용                                |
-| ------------------------------------ | ------------------------------------------ |
-| `practices/02/06-type-annotation`    | 나중에 값이 할당되는 변수의 타입 직접 선언 |
-| `practices/02/09-primitives`         | 값에 맞는 원시 타입                        |
-| `practices/02/12-arrays-tuples`      | 배열과 `readonly` 튜플                     |
-| `practices/02/15-object-types`       | 필수·선택 프로퍼티와 인덱스 시그니처       |
-| `practices/02/19-function-types`     | 파라미터·반환·선택·레스트 파라미터 타입    |
-| `practices/03/02-enum`               | 문자열 Enum의 값                           |
-| `practices/03/05-interface`          | Interface 프로퍼티와 확장                  |
-| `practices/03/08-literal-types`      | 리터럴 타입과 넓은 타입                    |
-| `practices/03/13-union-types`        | 객체 타입 Union과 리터럴 Union             |
-| `practices/03/16-intersection-types` | Intersection으로 타입 조합                 |
-| `practices/03/21-keyof-typeof`       | `typeof`로 가져온 타입과 `keyof` 키 Union  |
-| `practices/04/02-generics`           | 제네릭 함수와 제네릭 Interface             |
+| 폴더                                     | 완성할 내용                                |
+| ---------------------------------------- | ------------------------------------------ |
+| `practices/2장/06-타입을-정하는-법`      | 나중에 값이 할당되는 변수의 타입 직접 선언 |
+| `practices/2장/09-원시-타입`             | 값에 맞는 원시 타입                        |
+| `practices/2장/12-배열과-튜플`           | 배열과 `readonly` 튜플                     |
+| `practices/2장/15-객체-타입`             | 필수·선택 프로퍼티와 인덱스 시그니처       |
+| `practices/2장/19-함수에-타입-정하기`    | 파라미터·반환·선택·레스트 파라미터 타입    |
+| `practices/3장/02-Enum`                  | 문자열 Enum의 값                           |
+| `practices/3장/05-Interface`             | Interface 프로퍼티와 확장                  |
+| `practices/3장/08-리터럴-타입`           | 리터럴 타입과 넓은 타입                    |
+| `practices/3장/13-Union-타입`            | 객체 타입 Union과 리터럴 Union             |
+| `practices/3장/16-Intersection-타입`     | Intersection으로 타입 조합                 |
+| `practices/3장/21-keyof와-typeof-연산자` | `typeof`로 가져온 타입과 `keyof` 키 Union  |
+| `practices/4장/02-제네릭`                | 제네릭 함수와 제네릭 Interface             |
 
 ## 처음 한 번 준비하기
 
@@ -46,9 +46,9 @@ pnpm check:starts
 3. 저장소 루트에서 확인 명령을 실행합니다. 예를 들어 첫 문제는 다음 명령으로 확인합니다.
 
    ```bash
-   pnpm check -- practices/02/06-type-annotation
+   pnpm check -- practices/2장/06-타입을-정하는-법
    ```
 
-   모든 타입이 맞으면 `PASS: practices/02/06-type-annotation`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.
+   모든 타입이 맞으면 `PASS: practices/2장/06-타입을-정하는-법`이 표시됩니다. 타입이 맞지 않으면 진단과 함께 마지막 줄에 `[ELIFECYCLE] Command failed with exit code 1.`이 표시됩니다.
 
 4. 통과한 뒤 `answers/template.ts`, `answers/README.md`와 비교합니다.
