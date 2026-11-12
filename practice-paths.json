@@ -10,5 +10,12 @@
   "practices/3-11.Union-타입",
   "practices/3-13.Intersection-타입",
   "practices/3-17.keyof와-typeof-연산자",
-  "practices/4-02.제네릭"
+  "practices/4-02.제네릭",
+  "practices/4-05.인덱스드-액세스-타입",
+  "practices/4-07.keyof와-인덱스드-액세스-타입-조합",
+  "practices/4-09.맵드-타입",
+  "practices/4-11.유틸리티-타입-Partial·Required·Readonly",
+  "practices/4-13.유틸리티-타입-Pick·Omit·Record",
+  "practices/4-15.유틸리티-타입-Exclude·Extract·ReturnType·NonNullable",
+  "practices/4-17.조건부-타입"
 ]
